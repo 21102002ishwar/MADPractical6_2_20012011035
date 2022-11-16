@@ -1,16 +1,16 @@
-package com.example.madpractical6_20012011015
+package com.example.MADPractical6_2_20012011035
 
 import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebSettings
 import androidx.appcompat.app.AppCompatActivity
-import com.example.madpractical6_20012011015.databinding.ActivityYoutubeBinding
+import com.example.MADPractical6_2_20012011035.databinding.ActivityYoutubeBinding
 
 class YoutubeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityYoutubeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = com.example.madpractical6_20012011015.databinding.ActivityYoutubeBinding.inflate(layoutInflater)
+        binding = com.example.MADPractical6_2_20012011035.databinding.ActivityYoutubeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initYoutubePlayer()
 

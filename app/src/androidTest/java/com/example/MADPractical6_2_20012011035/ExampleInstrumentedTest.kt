@@ -1,4 +1,4 @@
-package com.example.madpractical6_20012011015
+package com.example.MADPractical6_2_20012011035
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

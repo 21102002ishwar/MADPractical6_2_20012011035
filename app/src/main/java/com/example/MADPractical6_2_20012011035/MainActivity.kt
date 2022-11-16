@@ -1,17 +1,17 @@
-package com.example.madpractical6_20012011015
+package com.example.MADPractical6_2_20012011035
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.MediaController
-import com.example.madpractical6_20012011015.databinding.ActivityMainBinding
+import com.example.MADPractical6_2_20012011035.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = com.example.madpractical6_20012011015.databinding.ActivityMainBinding.inflate(layoutInflater)
+        binding = com.example.MADPractical6_2_20012011035.databinding.ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initVideoPlayer()
 

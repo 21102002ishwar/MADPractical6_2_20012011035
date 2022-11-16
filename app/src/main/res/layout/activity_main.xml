@@ -23,13 +23,13 @@
             android:id="@+id/fButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_image_24"
             android:layout_margin="20dp"
+            android:layout_marginEnd="16dp"
             android:elevation="20dp"
+            android:src="@drawable/ic_baseline_image_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            >
-        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+            app:layout_constraintVertical_bias="0.0"></com.google.android.material.floatingactionbutton.FloatingActionButton>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
